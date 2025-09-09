@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Siłownia PowerZone</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+  <!-- Navbar -->
+  <header class="bg-black text-white p-4 flex justify-between items-center shadow-md">
+    <h1 class="text-2xl font-bold">PowerZone Gym</h1>
+    <nav class="space-x-6">
+      <a href="#about" class="hover:text-red-500">O nas</a>
+      <a href="#offer" class="hover:text-red-500">Oferta</a>
+      <a href="#trainers" class="hover:text-red-500">Trenerzy</a>
+      <a href="#contact" class="hover:text-red-500">Kontakt</a>
+    </nav>
+  </header>
+
+  <!-- Hero section -->
+  <section class="bg-cover bg-center h-[70vh] flex items-center justify-center text-center text-white" style="background-image: url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438');">
+    <div class="bg-black bg-opacity-60 p-8 rounded-2xl">
+      <h2 class="text-4xl md:text-6xl font-bold mb-4">Witamy w PowerZone</h2>
+      <p class="text-lg md:text-xl mb-6">Twoja droga do lepszej sylwetki i zdrowia zaczyna się tutaj</p>
+      <a href="#offer" class="bg-red-600 px-6 py-3 rounded-xl text-white font-semibold hover:bg-red-700 transition">Sprawdź ofertę</a>
+    </div>
+  </section>
+
+  <!-- About section -->
+  <section id="about" class="py-16 px-6 max-w-6xl mx-auto">
+    <h3 class="text-3xl font-bold text-center mb-8">Dlaczego warto nas wybrać?</h3>
+    <div class="grid md:grid-cols-3 gap-8 text-center">
+      <div class="bg-white p-6 rounded-2xl shadow-md">
+        <h4 class="text-xl font-semibold mb-2">Nowoczesny sprzęt</h4>
+        <p>Ćwicz na profesjonalnym sprzęcie najwyższej jakości.</p>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow-md">
+        <h4 class="text-xl font-semibold mb-2">Doświadczeni trenerzy</h4>
+        <p>Indywidualne podejście i wsparcie w osiąganiu celów.</p>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow-md">
+        <h4 class="text-xl font-semibold mb-2">Strefa relaksu</h4>
+        <p>Po treningu skorzystaj z sauny i strefy chilloutu.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Offer section -->
+  <section id="offer" class="bg-gray-200 py-16 px-6">
+    <h3 class="text-3xl font-bold text-center mb-8">Oferta</h3>
+    <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+      <div class="bg-white p-6 rounded-2xl shadow-md text-center">
+        <h4 class="text-xl font-semibold mb-2">Karnet miesięczny</h4>
+        <p class="mb-4">Dostęp do wszystkich stref siłowni.</p>
+        <p class="text-2xl font-bold mb-4">129 zł</p>
+        <a href="#contact" class="bg-red-600 text-white px-4 py-2 rounded-xl hover:bg-red-700">Kup teraz</a>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow-md text-center">
+        <h4 class="text-xl font-semibold mb-2">Karnet 3-miesięczny</h4>
+        <p class="mb-4">Oszczędzaj wybierając dłuższy plan.</p>
+        <p class="text-2xl font-bold mb-4">349 zł</p>
+        <a href="#contact" class="bg-red-600 text-white px-4 py-2 rounded-xl hover:bg-red-700">Kup teraz</a>
+      </div>
+      <div class="bg-white p-6 rounded-2xl shadow-md text-center">
+        <h4 class="text-xl font-semibold mb-2">Karnet roczny</h4>
+        <p class="mb-4">Najlepsza cena i dodatkowe bonusy.</p>
+        <p class="text-2xl font-bold mb-4">1199 zł</p>
+        <a href="#contact" class="bg-red-600 text-white px-4 py-2 rounded-xl hover:bg-red-700">Kup teraz</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trainers section -->
+  <section id="trainers" class="py-16 px-6 max-w-6xl mx-auto">
+    <h3 class="text-3xl font-bold text-center mb-8">Nasi trenerzy</h3>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white rounded-2xl shadow-md overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1" alt="Trener" class="h-64 w-full object-cover">
+        <div class="p-4">
+          <h4 class="text-xl font-semibold">Marek Kowalski</h4>
+          <p>Specjalista od kulturystyki i treningu siłowego.</p>
+        </div>
+      </div>
+      <div class="bg-white rounded-2xl shadow-md overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1594737625785-c868f3a83c98" alt="Trener" class="h-64 w-full object-cover">
+        <div class="p-4">
+          <h4 class="text-xl font-semibold">Anna Nowak</h4>
+          <p>Instruktorka fitness i trenerka personalna.</p>
+        </div>
+      </div>
+      <div class="bg-white rounded-2xl shadow-md overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1558611848-73f7eb4001a1" alt="Trener" class="h-64 w-full object-cover">
+        <div class="p-4">
+          <h4 class="text-xl font-semibold">Tomasz Wiśniewski</h4>
+          <p>Trener crossfitu i przygotowania motorycznego.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact section -->
+  <section id="contact" class="bg-black text-white py-16 px-6">
+    <h3 class="text-3xl font-bold text-center mb-8">Kontakt</h3>
+    <div class="max-w-3xl mx-auto text-center">
+      <p class="mb-4">📍 Ul. Sportowa 12, Warszawa</p>
+      <p class="mb-4">📞 +48 123 456 789</p>
+      <p class="mb-6">✉️ kontakt@powerzone.pl</p>
+      <a href="mailto:kontakt@powerzone.pl" class="bg-red-600 px-6 py-3 rounded-xl font-semibold hover:bg-red-700">Napisz do nas</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-gray-400 text-center p-4">
+    <p>&copy; 2025 PowerZone Gym. Wszelkie prawa zastrzeżone.</p>
+  </footer>
+</body>
+</html>
